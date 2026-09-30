@@ -111,17 +111,17 @@ body {
   font-size: 20px;
 }
 
-.lin2 {
+.nin {
   text-decoration: underline red 2px;
   padding: 5px;
 }
 
-.bould, 
-.boulder {
+.should, 
+.shoulder {
   font-weight: 800;
 }
 
-.boulder {
+.shoulder {
   font-size: larger;
 }
 
