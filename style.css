@@ -393,7 +393,7 @@ iframe{
   width:300px;
 }
 .slop{
-  width: auto;
+  width: 400px;
   height: 230px;
 }
 }
@@ -460,7 +460,7 @@ iframe{
   width:300px;
 }
 .slop{
-  width: auto;
+  width: 230px;
   height: 230px;
 }
 }
