@@ -2,7 +2,7 @@ html {
   background-color: #dadada;
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  background-image: url("/images/BACKGROUND_FINAL.jpg");
+  background-image: url("./images/BACKGROUND_FINAL.jpg");
 }
 
 body {
