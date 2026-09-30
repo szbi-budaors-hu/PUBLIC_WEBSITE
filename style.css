@@ -42,6 +42,8 @@ body {
 
 }
 
+
+
 .dok-listitem {
   gap: 20px;
   text-align: center;
@@ -380,4 +382,7 @@ y {
     flex: 1 1 100%;
     max-width: 100%;
   }
+  #location{
+  
+}
 }
