@@ -42,7 +42,10 @@ body {
 
 }
 
-
+iframe{
+  height:800px;
+  width:1000px;
+}
 
 .dok-listitem {
   gap: 20px;
@@ -384,5 +387,9 @@ y {
   #location img, .slop{
   height: 50%;
   width: 50%;
+}
+iframe{
+  height:450px;
+  width:300px;
 }
 }
