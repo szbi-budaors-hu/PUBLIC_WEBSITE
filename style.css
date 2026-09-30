@@ -332,6 +332,70 @@ y {
   .footer {
     width: 90%;
   }
+  html{
+      background-image: url("./images/BACKGROUND_FINAL_PHONE.png");
+  }
+  .menu-toggle {
+    display: flex;
+  }
+
+  .navigation {
+    width: 90%;
+  }
+
+  .navigation ul {
+    display: none !important;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 15px 0;
+    gap: 12px;
+  }
+
+  .navigation ul.active {
+    display: flex !important;
+  }
+
+  .navigation ul li {
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .navigation li a {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  #scrollTopBtn {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 20px;
+  }
+  
+  .vezetoseg td {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  #location img, .slop{
+  height: 50%;
+  width: 50%;
+}
+iframe{
+  height:450px;
+  width:300px;
+}
+.slop{
+  width: auto;
+  height: 230px;
+}
 }
 
 @media screen and (max-width: 768px) {
