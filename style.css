@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   background-image: url("./images/BACKGROUND_FINAL.jpg");
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 body {
@@ -67,6 +71,12 @@ body {
   background-color: #ffff0030;
 }
 
+.mainest{
+  padding: 5px 10px;
+  border-radius:0px 0px 10px 10px;
+  background-color: rgba(224, 224, 224, 0.850);
+}
+
 .mainest p {
   text-align: justify;
 }
@@ -124,7 +134,10 @@ y {
   display: flex !important;
   justify-content: center;
   max-width: 1200px;
-  margin: 0 auto;
+  padding: 10px;
+    margin: 0 auto;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgba(224, 224, 224, 0.7);
 }
 
 .navigation ul {
@@ -144,14 +157,15 @@ y {
 }
 
 .navigation li a {
-  color: #333333;
+  color: #111111;
   text-decoration: none;
 }
 
 .navigation li a:hover {
-  color: #111111;
   text-decoration: underline;
+  color: rgb(25, 87, 81);
 }
+
 
 .menu-toggle {
   display: none;
@@ -188,13 +202,18 @@ y {
 }
 
 .footer {
-  background-color: #F1F1F1;
+  background-color: rgba(241, 241, 241, 0.75);
   color: #333333;
   text-align: center;
   padding: 15px 0;
   border-top: 1px solid #E0E0E0;
-  width: 1000px;
+  width: 1200px;
   margin: auto;
+  border-radius: 10px 8px;
+}
+.footer img{
+  background-color: #fff;
+  padding: 5px 8px;
 }
 
 .footer a {
@@ -350,6 +369,7 @@ y {
     line-height: 38px;
     font-size: 20px;
   }
+  
   .vezetoseg td {
     flex: 1 1 100%;
     max-width: 100%;
