@@ -346,7 +346,6 @@ y {
     width: 100%;
     background-color: #f1f1f1;
     padding: 15px 0;
-    border: 1px solid #e0e0e0;
     gap: 12px;
   }
 
@@ -382,7 +381,8 @@ y {
     flex: 1 1 100%;
     max-width: 100%;
   }
-  #location{
-  
+  #location img, .slop{
+  height: 50%;
+  width: 50%;
 }
 }
