@@ -89,7 +89,7 @@ body {
   list-style-type: "∙";
 }
 
-.idolp {
+.paragraph {
   font-size: 15px;
 }
 
@@ -98,16 +98,16 @@ body {
   font-style: italic;
 }
 
-.divizor, 
-.divizor_under {
+.divisor, 
+.subdivisor {
   text-decoration: underline;
 }
 
-.divizor {
+.divisor {
   font-size: 30px;
 }
 
-.divizor_under {
+.subdivisor {
   font-size: 20px;
 }
 
