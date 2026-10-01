@@ -9,6 +9,10 @@ html {
   scrollbar-width: thin;
 }
 
+.img{
+  -webkit-user-drag: none;
+}
+
 .arbutus-slab-regular {
   font-family: "Arbutus Slab", serif;
   font-weight: 400;
