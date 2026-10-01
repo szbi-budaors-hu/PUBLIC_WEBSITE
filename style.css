@@ -329,10 +329,7 @@ y {
 }
 
 @media screen and (max-width: 1024px) {
-  .footer {
-    width: 90%;
-  }
-  html{
+  .html{
       background-image: url("./images/BACKGROUND_FINAL_PHONE.png");
         background-position: center center;
     background-repeat: no-repeat;
@@ -340,12 +337,21 @@ y {
     background-attachment: fixed;
      scroll-behavior: smooth;
   }
+
+  .content{
+    max-width: 1000px;
+  }
+
+  .mainest{
+    max-width: 180%;
+  }
+
   .menu-toggle {
     display: flex;
   }
 
   .navigation {
-    width: 90%;
+    width: 180%;
   }
 
   .navigation ul {
@@ -398,7 +404,7 @@ iframe{
   width:300px;
 }
 .slop{
-  width: 400px;
+  width: 230px;
   height: 230px;
 }
 }
@@ -406,13 +412,26 @@ iframe{
 @media screen and (max-width: 768px) {
   html{
       background-image: url("./images/BACKGROUND_FINAL_PHONE.png");
+        background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     scroll-behavior: smooth;
+  }
+
+  .content{
+    max-width: 700px;
+  }
+
+    .mainest{
+    max-width: 180%;
   }
   .menu-toggle {
     display: flex;
   }
 
   .navigation {
-    width: 90%;
+    width: 180%;
   }
 
   .navigation ul {
